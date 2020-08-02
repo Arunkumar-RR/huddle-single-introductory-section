@@ -1,0 +1,28 @@
+@import "./mixin";
+@import "./variables";
+
+@import "./component/attribution";
+@import "./layout";
+@import "./responsive";
+
+
+//global
+a
+{
+    text-decoration: none;
+    color: $neutral-2;
+    &:hover
+    {
+        text-decoration: underline;
+    }
+}
+body
+{
+    font-family: $body;
+}
+*
+{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}

@@ -1,0 +1,273 @@
+.attribution {
+  padding: 0;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row wrap;
+          flex-flow: row wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.attribution h6 {
+  margin: 10px 15px;
+  font-size: 0.9em;
+  font-weight: 400;
+}
+
+.attribution h6 a {
+  font-weight: 700;
+  color: white;
+  letter-spacing: 1px;
+}
+
+@media screen and (max-width: 1100px) {
+  .attribution {
+    text-align: center;
+    padding: 0;
+    margin: auto 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-flow: column-reverse wrap;
+            flex-flow: column-reverse wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .attribution h6 {
+    margin: 10px 0px;
+    font-size: 0.7em;
+    letter-spacing: 1px;
+  }
+}
+
+body {
+  background-image: url(../images/bg-desktop.svg);
+  background-color: #674baf;
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 100vh;
+}
+
+.container {
+  width: 90%;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column wrap;
+          flex-flow: column wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.container .logo {
+  background-image: url(../images/logo.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 150px;
+  height: 50px;
+  -webkit-transform: scale(1.3);
+          transform: scale(1.3);
+  margin: 50px auto 0 20px;
+}
+
+.container .hero-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: row nowrap;
+          flex-flow: row nowrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  margin: 80px 20px 0 20px;
+}
+
+.container .hero-container .bg-img {
+  background-image: url(../images/illustration-mockups.svg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 60%;
+  height: 400px;
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+}
+
+.container .hero-container .content {
+  width: 50%;
+  -ms-flex-item-align: start;
+      align-self: flex-start;
+  color: #ebfbff;
+  padding: 0 0 0 30px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-flow: column nowrap;
+          flex-flow: column nowrap;
+  -webkit-box-pack: start;
+      -ms-flex-pack: start;
+          justify-content: flex-start;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.container .hero-container .content h1 {
+  font-size: 1.7em;
+  margin: 30px 0 10px 0;
+  font-family: "Poppins", sans-serif;
+}
+
+.container .hero-container .content p {
+  font-size: 0.7em;
+  width: 85%;
+  font-weight: 400;
+}
+
+.container .hero-container .content .btn {
+  text-decoration: none;
+  color: #674baf;
+  background-color: #ebfbff;
+  padding: 10px 50px;
+  margin: 20px 0;
+  border-radius: 25px;
+  font-size: 0.7em;
+  -webkit-box-shadow: 0 0.1px 2.1px rgba(0, 0, 0, 0.024), 0 0.4px 7.1px rgba(0, 0, 0, 0.036), 0 2px 32px rgba(0, 0, 0, 0.06);
+          box-shadow: 0 0.1px 2.1px rgba(0, 0, 0, 0.024), 0 0.4px 7.1px rgba(0, 0, 0, 0.036), 0 2px 32px rgba(0, 0, 0, 0.06);
+}
+
+.container .hero-container .content .btn:hover {
+  -webkit-transform: scale(1.1);
+          transform: scale(1.1);
+  -webkit-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+
+.container .social-links {
+  -ms-flex-item-align: end;
+      align-self: flex-end;
+  margin-right: 120px;
+}
+
+@media screen and (max-width: 1100px) {
+  body {
+    background-image: url(../images/bg-mobile.svg);
+    height: -webkit-fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+  .container {
+    width: 90%;
+  }
+  .container .logo {
+    -webkit-transform: scale(1.1);
+            transform: scale(1.1);
+    margin: 50px auto 0 10px;
+  }
+  .container .hero-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column wrap;
+            flex-flow: column wrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: 50px 20px 0 20px;
+  }
+  .container .hero-container .bg-img {
+    background-image: url(../images/illustration-mockups.svg);
+    width: 100%;
+    height: 300px;
+    -webkit-transform: scale(1);
+            transform: scale(1);
+  }
+  .container .hero-container .content {
+    text-align: center;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 0 0 0;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-flow: column nowrap;
+            flex-flow: column nowrap;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .container .hero-container .content h1 {
+    font-size: 1.7em;
+  }
+  .container .hero-container .content p {
+    font-size: 0.9em;
+    width: 310px;
+  }
+  .container .hero-container .content .btn {
+    padding: 15px 80px;
+    margin: 20px 0;
+  }
+  .container .social-links {
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    margin-right: 0px;
+  }
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+body {
+  font-family: "Open Sans", sans-serif;
+}
+
+* {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+/*# sourceMappingURL=style.css.map */
